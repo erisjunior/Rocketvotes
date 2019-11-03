@@ -1,0 +1,28 @@
+{
+  "name": "rocketvotes",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": ""
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "graphql-iso-date": "^3.6.1",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2",
+    "sucrase": "^3.10.1"
+  }
+}
